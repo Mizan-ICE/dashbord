@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommerce Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <input type="checkbox" id="mobile-menu" />
+
+    <div class="sidebar">
+      <div class="logo">
+        <i class="fa fa-shopping-bag"></i>
+        <h2>MIZAN</h2>
+      </div>
+      <div class="menu">
+        <ul>
+          <li><i class="fa fa-home"></i> Home</li>
+          <li><i class="fa fa-user"></i> My Profile</li>
+          <li><i class="fa fa-wallet"></i> Wallet</li>
+          <li><i class="fa fa-shopping-cart"></i> Cart</li>
+          <li><i class="fa fa-shopping-basket"></i> Categories</li>
+          <li><i class="fa fa-cog"></i> Settings</li>
+          <li><i class="fa fa-sign-out-alt"></i> Sign Out</li>
+        </ul>
+      </div>
+    </div>
+
+    <label for="mobile-menu" id="mmenu">
+      <i class="fa fa-bars"></i>
+      <i class="fa fa-times"></i>
+    </label>
+
+    <div class="content">
+      <div class="top">
+        <div class="search">
+          <input type="text" placeholder="Search For Product" />
+          <i class="fa fa-search"></i>
+        </div>
+        <div class="user">
+          <i class="fa-solid fa-location-dot"></i>
+          <span>Dhaka</span>
+          <i class="fas fa-chevron-down"></i>
+          <i class="fa fa-envelope" aria-hidden="true"></i>
+
+          <label style="position: relative">
+            <i id="bell" class="fa fa-bell" aria-hidden="true"></i>
+            <span class="badge">+5</span>
+          </label>
+          <i class="fa-solid fa-circle-user"></i>
+          <span>Mizanur Rahman</span>
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+
+      <h2 id="heading">Categories</h2>
+      <div class="categories">
+        <div class="category">
+          <h3>All Products</h3>
+          <img src="img/goal.webp" alt="" />
+        </div>
+
+        <div class="category">
+          <h3>Life Style</h3>
+          <img src="img/dumbbell.webp" alt="" />
+        </div>
+
+        <div class="category">
+          <h3>Fashion</h3>
+          <img src="img/shoe.webp" alt="" />
+        </div>
+      </div>
+
+      <div class="all-products">
+        <div class="title">
+          <h2>All Products</h2>
+        </div>
+
+        <div class="products">
+          <div class="product">
+            <div class="addbutton">
+              <button class="addtocart">ADD TO CART</button>
+            </div>
+            <i class="fa fa-shopping-cart"></i>
+            <img src="img/laptop.webp" alt="" />
+
+            <div class="subtitle">
+              <div class="name">
+                <h5>Laptop</h5>
+              </div>
+              <div class="price"><h1>469.0 $</h1></div>
+            </div>
+          </div>
+
+          <div class="product">
+            <i class="fa fa-shopping-cart"></i>
+            <img src="img/t-shirt.webp" alt="" />
+            <div class="addbutton">
+              <button class="addtocart">ADD TO CART</button>
+            </div>
+            <div class="subtitle">
+              <div class="name">
+                <h5>T-Shirt</h5>
+              </div>
+              <div class="price"><h1>34.3 $</h1></div>
+            </div>
+          </div>
+
+          <div class="product">
+            <i class="fa fa-shopping-cart"></i>
+            <img src="img/Mens-Shirt.jpg" alt="" />
+            <div class="addbutton">
+              <button class="addtocart">ADD TO CART</button>
+            </div>
+            <div class="subtitle">
+              <div class="name">
+                <h5>Mens-shirt</h5>
+              </div>
+              <div class="price"><h1>33.4 $</h1></div>
+            </div>
+          </div>
+        </div>
+
+        <div class="products">
+          <div class="product">
+            <i class="fa fa-shopping-cart"></i>
+            <img src="img/mob.png" alt="" />
+            <div class="addbutton">
+              <button class="addtocart">ADD TO CART</button>
+            </div>
+            <div class="subtitle">
+              <div class="name">
+                <h5>Smart Phone</h5>
+              </div>
+              <div class="price">
+                <h1>112.4 $</h1>
+              </div>
+            </div>
+          </div>
+
+          <div class="product">
+            <i class="fa fa-shopping-cart"></i>
+            <img src="img/ladies shoes.jpg" alt="" />
+            <div class="addbutton">
+              <button class="addtocart">ADD TO CART</button>
+            </div>
+            <div class="subtitle">
+              <div class="name">
+                <h5>Ladies shoes</h5>
+              </div>
+              <div class="price"><h1>16.4 $</h1></div>
+            </div>
+          </div>
+
+          <div class="product">
+            <i class="fa fa-shopping-cart"></i>
+            <img src="img/bag.webp" alt="" />
+            <div class="addbutton">
+              <button class="addtocart">ADD TO CART</button>
+            </div>
+            <div class="subtitle">
+              <div class="name">
+                <h5>Laptop Bag</h5>
+              </div>
+              <div class="price"><h1>25.4 $</h1></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
